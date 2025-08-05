@@ -11,7 +11,7 @@ from src.sort import Sort  # Ensure you have the SORT tracker in a file named so
 
 
 # Load the YOLOv5 model
-model = torch.hub.load('ultralytics/yolov5', 'custom', path='/home/user1/git2_ws/src/obj_track/src/maize.pt', force_reload=True)
+model = torch.hub.load('ultralytics/yolov5', 'custom', path='/your_workspace/src/obj_track/src/maize.pt', force_reload=True)
 color_box = False
 
 # Set up the RealSense D455 camera
