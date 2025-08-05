@@ -6,7 +6,7 @@ import cv2
 import numpy as np
 import pyrealsense2 as rs
 import torch
-from src.sort import Sort  # Ensure you have the SORT tracker in a file named sort.py
+from src.sort import Sort  
 
 
 
