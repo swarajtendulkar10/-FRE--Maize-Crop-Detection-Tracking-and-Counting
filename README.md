@@ -14,13 +14,21 @@ Install Realsense ROS2 Wrapper: https://github.com/IntelRealSense/realsense-ros
 
 # Steps of Implementation
 Clone the repository
-
+```bash
+git clone https://github.com/swarajtendulkar10/-FRE--Maize-Crop-Detection-Tracking-and-Counting.git
+```
 Add folders to the root folder
-
+```bash
+mkdir launch/ worlds/ config/ include/ description/
+```
 Build the workspace
-
+```bash
+colcon build
+```
 Run the Maize Tracker Node
-
+```bash
+ros2 run obj_track maize_tracker_new.py 
+```
 # Results of Implementation
 
 
